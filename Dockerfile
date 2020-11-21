@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt
 
 RUN pip install more-itertools
 
-RUN python train.py
+RUN python3 train.py
 
 EXPOSE 5000
 
