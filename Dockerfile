@@ -7,6 +7,8 @@ RUN pip install -r requirements.txt
 
 RUN pip install more-itertools
 
+RUN python train.py
+
 EXPOSE 5000
 
 ENTRYPOINT ["python"]
